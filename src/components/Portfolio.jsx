@@ -7,8 +7,6 @@ import preview from "../assets/portfolio/code.png";
 import quote from "../assets/portfolio/quote.png";
 import weather from "../assets/portfolio/weather.png";
 import instagram from "../assets/portfolio/instagram.png";
-import Modal from "./Modal";
-import { useState } from "react";
 
 const Portfolio = () => {
   const portfolios = [
@@ -73,9 +71,9 @@ const Portfolio = () => {
       <div
         name="portfolio"
         id="Projects"
-        className="bg-gradient-to-b from-black to-gray-800 w-full min-h-screen text-white md:h-screen h-full pt-11"
+        className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-full sm:h-screen pt-64 max-sm:pt-80"
       >
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full max-sm:mt-80">
           <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Portfolio
