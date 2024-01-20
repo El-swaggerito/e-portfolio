@@ -7,6 +7,8 @@ import preview from "../assets/portfolio/code.png";
 import quote from "../assets/portfolio/quote.png";
 import weather from "../assets/portfolio/weather.png";
 import instagram from "../assets/portfolio/instagram.png";
+import Modal from "./Modal";
+import { useState } from "react";
 
 const Portfolio = () => {
   const portfolios = [
