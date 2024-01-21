@@ -43,9 +43,8 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://docs.google.com/document/d/e/2PACX-1vR4bP-GjCTxABiYxhTfuqARXY4WT3ED5irJhuqYStcznG2nqqccvit8TOSpqrxjLhN1145MMDLouUmn/pub",
       style: "rounded-br-md",
-      download: true,
     },
   ];
   return (
